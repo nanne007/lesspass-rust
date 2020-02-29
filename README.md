@@ -11,7 +11,7 @@ This is a CLI implemented in Rust to generate lesspass password, and it's compat
 
 ``` shell
 # install with cargo
-> cargo install lesspass
+> cargo install --git https://github.com/nonsense2020/lesspass-rust
 > lesspass help
 > lesspass gen --help
 ```
