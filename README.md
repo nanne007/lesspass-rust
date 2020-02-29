@@ -7,9 +7,15 @@ And this is a CLI implemented in Rust to generate lesspass password.
 
 ## Usage
 
-```
+``` shell
 # install with cargo
 > cargo install lesspass
 > lesspass help
-> lesspass gen help
+> lesspass gen --help
 ```
+
+Generate a 20-length password for site *www.facebook.com* using login *lesspass@example.com*.
+``` shell
+lesspass gen --site www.facebook.com --login lesspass@example.com --length 20 
+```
+This will prompt you to input your master password.
