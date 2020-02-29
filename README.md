@@ -1,9 +1,11 @@
 # lesspass-rust
 
 Lesspass is a tool to derive password to login in websites, apps based on one true master password. 
+
 See https://lesspass.com/ for more detail.
 
-And this is a CLI implemented in Rust to generate lesspass password.
+This is a CLI implemented in Rust to generate lesspass password, and it's compatible with [origin python&js implementation](https://github.com/lesspass/lesspass).
+
 
 ## Usage
 
